@@ -1,96 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Manas Dhawan</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-content">
-      <div class="text-section">
+
+  <main class="page">
+
+    <!-- INTRODUCTION -->
+    <section class="introduction">
+
+      <div class="photo-column">
+        <img
+          class="profile-photo"
+          src="profile.jpg"
+          alt="Manas Dhawan"
+        >
+      </div>
+
+      <div class="intro-column">
+
         <h1>Manas Dhawan</h1>
-        <p class="subtitle">
-          Incoming PhD Student in Statistics and Operations Research<br>
-          University of North Carolina at Chapel Hill
+
+        <p>
+          Hello! I am a first year PhD student in Statistics and Operations
+          Research at the University of North Carolina at Chapel Hill.
+          
         </p>
 
         <p>
-          I am an incoming PhD student in Statistics and Operations Research at
-          the University of North Carolina at Chapel Hill. My research interests
-          include time series, causal inference, and machine learning, with
-          applications in healthcare, genomics, and finance.
+          Before coming to UNC, I earned my B.S. in Mathematics/Economics
+          from the University of California, Los Angeles. I am 
+          interested in developing statistical methods that can support 
+          time series forecasting, uncertainty quantification, and data driven
+          decision making. 
         </p>
 
-        <div class="links">
-          <a href="https://github.com/manasdhawan" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/manas-dhawan-53a934385/" target="_blank" rel="noopener noreferrer">
-  LinkedIn
-</a>
-          <a href="mailto:manasda1@unc.edu">Email</a>
+        <p>
+          Outside of academics, I enjoy weightlifting and playing tennis.
+          I am enjoy watching the NFL (FLY EAGLES FLY).
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:YOUR_EMAIL@unc.edu">Email</a>
+          <a
+            href="https://www.linkedin.com/in/manas-dhawan-53a934385/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/manasdhawan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
           <a href="cv.pdf" target="_blank">CV</a>
         </div>
+
       </div>
 
-      <div class="image-section">
-        <img src="profile.jpg" alt="Photo of Manas Dhawan" />
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <section>
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Time Series</li>
-        <li>Causal Inference</li>
-        <li>Machine Learning</li>
-        <li>Applications in Healthcare, Genomics, and Finance</li>
-      </ul>
     </section>
 
-    <section>
+
+    <!-- PROJECTS -->
+    <section class="content-section">
+
       <h2>Projects</h2>
 
+      <p>
+        Here are some of the projects I have worked on:
+      </p>
+
       <div class="project">
+
         <h3>Mortgage Rate Time Series Analysis</h3>
+
         <p>
-          Analyzed U.S. mortgage rate dynamics using time series methods,
-          including ARIMA, ETS, ARDL, and volatility modeling, with forecasting
-          applications.
+          I analyzed the behavior of U.S. mortgage rates using a range of
+          time-series methods, including ARIMA, exponential smoothing, ARDL,
+          and GARCH models. I also investigated the relationship between
+          mortgage rates and macroeconomic variables and produced long-term
+          forecasts under several modeling assumptions.
+          <a
+            href="https://github.com/manasdhawan/mortgage-rate-time-series-analysis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View the project on GitHub.
+          </a>
         </p>
+
       </div>
 
       <div class="project">
+
         <h3>Mortgage-Backed Securities Pricing</h3>
+
         <p>
-          Developing a framework for valuing mortgage-backed securities using
-          cash flow modeling, prepayment behavior, and scenario-based discounting.
+          I am developing a framework for valuing mortgage-backed securities
+          using loan-level cash-flow modeling, borrower prepayment behavior,
+          default assumptions, interest-rate scenarios, and risk-adjusted
+          performance measures. The project explores how mortgage pools can
+          be compared across different economic and behavioral assumptions.
+          <a
+            href="YOUR_MBS_PROJECT_LINK"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View the project on GitHub.
+          </a>
         </p>
+
       </div>
+
+      <!-- Copy this block when you add another project -->
+      <!--
+      <div class="project">
+
+        <h3>Project Name</h3>
+
+        <p>
+          Write a short paragraph explaining what you studied, what methods
+          you used, and why the project was interesting.
+          <a href="PROJECT_LINK" target="_blank" rel="noopener noreferrer">
+            View the project on GitHub.
+          </a>
+        </p>
+
+      </div>
+      -->
+
+   
+
+
     </section>
 
-    <section>
-      <h2>Education</h2>
-      <p>
-        <strong>University of North Carolina at Chapel Hill</strong><br>
-        PhD in Statistics and Operations Research, Incoming Student
-      </p>
 
-      <p>
-        <strong>University of California, Los Angeles</strong><br>
-        B.S. in Mathematics/Economics
-      </p>
-    </section>
+    <footer>
+      <p>© 2026 Manas Dhawan</p>
+    </footer>
 
-    <section>
-      <h2>Contact</h2>
-      <p>
-        Feel free to reach out by email for research, collaboration, or professional inquiries.
-      </p>
-      <p>Email: <a href="mailto:your_email@unc.edu">your_email@unc.edu</a></p>
-    </section>
   </main>
+
 </body>
 </html>
