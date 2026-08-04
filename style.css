@@ -1,4 +1,80 @@
-/* GENERAL PAGE */
+/* NAVIGATION */
+
+.site-nav {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #dedede;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name {
+  color: #1f4f82;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #1f4f82;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+}
+
+
+/* PROJECTS PAGE */
+
+.projects-page {
+  max-width: 850px;
+}
+
+.projects-page > h1 {
+  margin: 0 0 20px;
+  color: #1f4f82;
+  font-size: 2.65rem;
+  line-height: 1.15;
+}
+
+.section-introduction {
+  margin-bottom: 40px;
+}
+
+.projects-page .project {
+  margin-bottom: 45px;
+}
+
+.projects-page .project h2 {
+  margin-bottom: 12px;
+  font-size: 1.45rem;
+}
+
+.project-link {
+  font-weight: bold;
+}/* GENERAL PAGE */
 
 * {
   box-sizing: border-box;
